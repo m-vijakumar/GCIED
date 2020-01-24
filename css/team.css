@@ -1,0 +1,254 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(20, 20, 20, 0.5), rgba(132, 132, 132, 0.5)),url('https://media.istockphoto.com/photos/blackboard-picture-id517128364?k=6&m=517128364&s=612x612&w=0&h=KeYA6CjgVg6ZEdyRpZtN--aTqezxhZxsjpgtqt7i4QA=');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#cover11 {
+  background-size: cover;
+  background: #000000;
+  color: #666666;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 5000;
+
+  text-align: center;
+
+}
+  .nav-font{
+      font-size: 1.2rem;
+      color: rgb(199, 196, 196);
+     
+  }
+  .navbar-brand{
+  padding: 0px 30px;
+  }
+  .navbar-brand>strong:hover{
+    color: ivory;
+  }
+   .head{
+  
+    padding: 10px 0px;
+    font-size: 1.6rem;
+    color :rgb(211, 211, 211) ;
+   }
+  
+   .bg-dark{
+    background:transparent !important;
+    background-image:none;
+    border-color:transparent;
+    box-shadow:none;
+  }
+  .bg-dark.scrolled{
+    background:linear-gradient(rgba(0, 0, 0, 1.5), rgba(54, 54, 54, 0.66)) #252525c9 !important;
+    opacity: .99;
+    font-size: 1.2rem;
+    color: rgb(97, 97, 97);
+  }
+  .nav-font.scrolled{
+    font-size: 5rem;
+    color: rgb(238, 235, 235);
+  }
+  @media screen and (max-width: 991px){
+    .bg-dark{
+      background:transparent !important;
+      background-image:none;
+      border-color:transparent;
+       box-shadow:rgb(255, 255, 255); 
+       opacity: 500.99; 
+  
+    }
+    .nav-font{
+      color: rgb(197, 197, 197);
+      font: outline;
+      
+    }
+   }
+   .nav-font:hover{
+    color: rgb(255, 255, 255);
+    font: outline;
+    
+  }
+   p{
+     text-align: center
+   }
+  
+   #team{
+       top:50%;
+
+   }
+.img-heigth{
+height: 20px;
+}
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+ .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+  height: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+   #team >.card-deck > .card > img {
+       height: max-content;
+       
+   }
+   #team >.card-deck >.card:hover{
+    -ms-transform: scale(1.059); 
+    -webkit-transform: scale(1.059);
+    transform: scale(1.059);
+    box-shadow: rgb(218, 103, 58);
+    scrollbar-shadow-color: rgb(100, 100, 107);
+}
+ #team >.card-deck > .card >.card-body >.card-title{
+    text-align: center;
+} 
+ #team >.card-deck > .card {
+    height: 500px;
+} 
+
+#team >.card-deck > .card >.card-footer>.text-muted >a{
+    color: inherit;
+    
+    
+}
+
+/*--------------- footer----------- */
+
+footer{ 
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+ 
+  }
+  
+  .footer-top{
+    background-color: rgb(8, 8, 8);
+    padding: 10px 0;
+    padding-right: 10px 0;
+  }
+  
+  
+  .footp{
+    color:rgb(214, 214, 214); 
+    text-align: left
+  }
+  
+  .footh2{
+    color: aliceblue;
+      font-size: 30px;
+  }
+  
+  #feed{
+    display: inline;
+  }
+  /* #s{
+  display: inline;
+  } */
+  .foottext{
+    width: fit-content
+  }
+  @media screen and (max-width: 990px){
+   #feed {
+     background-size: 1px;
+   }
+  }
+  @media screen and (max-width: 575px) {
+    .footh2 {
+      font-size: 23px
+    }
+    .footp {
+      font-size: 18px
+    }
+    .foottext{
+      width: 1rem
+  
+    }
+   
+  }
+  
+  .form-control-sm{
+  
+    width: 1px;
+    size: 0em
+  }
+    #sm:hover{
+  
+      /* font-size: 2.5em */
+      -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    }
+    #s:hover{
+  
+       font-size: 1.1em; 
+      height: 1.3rem; 
+      -ms-transform: scale(1.4); 
+    -webkit-transform: scale(1.4); 
+    transform: scale(1.4);
+    }

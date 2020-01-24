@@ -1,0 +1,434 @@
+
+html {
+  scroll-behavior: smooth;
+  position: relative;
+  transition: 800ms;
+ 
+}
+html,body{
+  height: 100%;
+}
+
+#cover11 {
+  background-size: cover;
+  background: #000000;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+
+  text-align: center;
+
+}
+.load{
+  
+  text-align: left;
+  position: absolute;
+  font-size-adjust:auto;
+  top: 50%;
+  left: 50%;
+  /* padding: 15px; */
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 30%;
+}
+.nav-font{
+    font-size: 1.2rem;
+    color: rgb(172, 170, 170);
+   
+}
+.navbar-brand{
+padding: 0px 30px;
+}
+.navbar-brand>strong:hover{
+  color: ivory;
+}
+ .head{
+
+  padding: 10px 0px;
+  font-size: 1.6rem;
+  color :rgb(190, 190, 190) ;
+ }
+
+ .bg-dark{
+  background:transparent !important;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+}
+.bg-dark.scrolled{
+  
+  background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(52, 52, 52, 0.96)) #000000c9 !important;
+  opacity: .96;
+  font-size: 1.2rem;
+  color: rgb(65, 64, 64);
+  /* transform: .5s; */
+  /* transition: 5s ease; */
+}
+.nav-font.scrolled{
+  font-size: 5rem;
+  color: rgb(160, 160, 160);
+}
+.bg-dark.clicked{
+  background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(34, 34, 34, 0.692)) transparent !important;
+    background-image:none;
+    border-color:transparent;
+     box-shadow:rgb(255, 255, 255); 
+     opacity: 500.99;
+}
+@media screen and (max-width: 991px){
+  .bg-dark{
+    background: transparent !important;
+    background-image:none;
+    border-color:transparent;
+     box-shadow:rgb(255, 255, 255); 
+     opacity: 500.99; 
+
+  }
+  .nav-font{
+    color: rgb(207, 204, 204);
+    font: outline;
+    text-align: center;
+    
+  }
+  .load{
+  
+    text-align: left;
+    position: absolute;
+    font-size-adjust:auto;
+    top: 40%;
+    left: 50%;
+    /* padding: 15px; */
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+  }
+ }
+ .nav-font:hover{
+  color: rgb(255, 255, 255);
+  font: outline;
+  
+}
+.active{
+  color: rgb(255, 255, 255);
+  font: outline;
+  
+}
+ p{
+   text-align: center
+ }
+ .hero{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(17, 17, 17, 0.5)) ,url("../image.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ }
+ .hero-text {
+  text-align: left;
+  position: absolute;
+  font-size-adjust:auto;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+  .hero-text button {
+    border: rgba(93, 92, 94, 0.801);
+    border-color: rgb(90, 89, 90); ;
+    outline: 0;
+    display: inline-block;
+    font-size:1.1em ;
+    font-display: inherit;
+    border-color: #555555;
+    border-style: double;
+    border-width: 2px;
+    border-radius: 22px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    color: rgb(90, 88, 90);
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+
+   
+  }
+
+ 
+  @media screen and (max-width : 500px){
+    .hero-text button {
+      font-size :1em ;
+    }
+  }
+
+  .hero-text button:hover {
+    background-color: rgb(173, 171, 173);
+    color:rgb(44, 44, 44);
+    border-color:rgb(149, 147, 150) ;
+  }
+
+
+   .events > .carousel-item > img{
+
+    background-position: center;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    height: 600px;
+  } 
+ 
+  #content > *>p {
+    font-size: 23px;
+    font-family: cursive;
+  }
+  #content > *>h1 {
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #content > *> *>*> p {
+    font-size: 23px;
+    letter-spacing: -1px;
+    font-family: cursive;
+  }
+  #content > *> *>*> h1 {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #video{
+    background:linear-gradient(rgba(132, 162, 231, 0.388),rgba(218, 177, 210, 0.687)),rgba(120, 119, 119, 0.625) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  text-align: center;
+  }
+  .card-title{
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-family: cursive;
+  }
+  .padd{
+    padding:50px 50px 50px 50px;
+  }
+  iframe{
+    background-position: center;
+    position: relative;  
+    box-shadow:0 8px 6px -6px black;
+     margin-left: auto;
+     margin-right: auto;
+      height: 500px;
+      width: 70%;
+      border-style: groove;
+      border: lightsteelblue;
+      border-radius: 5px;
+      
+    }
+    @media screen and (max-width : 654px){
+      
+      iframe{
+        background-position: center;
+        position: relative;  
+        box-shadow:0 8px 6px -6px black;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60%;
+        width: 90%;
+        border-style: groove;
+        border: lightsteelblue;
+        border-radius: 5px;
+      
+      }
+      .padd{
+        padding: 20px 20px 20px 20px;
+      }
+      #team{
+        padding : 0px 0px;
+        
+      }
+    }
+#about , #seedfunding, #technology{
+  background:linear-gradient(rgba(115, 146, 220, 0.388),rgba(218, 177, 210, 0.687)),rgba(194, 90, 133, 0.625) ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mission , #access ,#mentoring{
+
+  background:linear-gradient(rgb(225, 189, 90,0.184),rgba(131, 197, 230, 0.5)),rgb(191, 105, 173);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+  .events{
+    background-image:linear-gradient(rgba(39, 39, 39, 0.9), rgba(0, 0, 0, 0.5)) ,url("../image.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #team{
+    padding : 20px 20px;
+    
+  }
+
+  .container-1{
+
+     
+    display: flex;
+    justify-content: space-around;
+  
+    
+    background-color: transparent;
+    padding: 15px;
+    background-position: center;
+    margin: auto;
+     
+  }
+
+  #team > .card > .card-img-top{
+
+    /* border-radius: 50px; */
+
+    height: 90px;
+    align-self: center;
+    width: 100px;
+
+    
+  }
+
+  #team > .card {
+
+     padding: 1px 1px; 
+    height: 180px;
+    -ms-flex-align: center;
+    align-self: center;
+    justify-self: center;
+    background-color: transparent;
+    border: transparent;
+
+    
+  }
+  .post{
+    width: 100%; 
+    height: 600px;
+  }
+  @media screen and (max-width: 700px){
+    .post{
+      width: 100%;
+      height: 550px;
+    }
+   }
+
+  #startup{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.financialexpress.com/2019/06/start-up-2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;;
+  }
+.imgrr{  
+  margin-left: auto;
+ margin-right: auto;
+ display: block;  
+ background-color: #555     
+}
+
+.carousel-inner .card{
+    margin: auto;
+    height: 500px;
+}
+
+#startup > .carousel-inner > .carousel-item .card{
+
+  margin: auto;
+  height: 500px;
+}
+.cardp{
+
+  background-color: rgb(241, 245, 219);
+  font-size: larger;
+}
+#carimg{
+    height: 200px;
+   
+}
+.imgcont {
+position: relative;
+text-align: center;
+color: white;
+}
+
+footer{ 
+  width: 100%;
+  background-color: rgb(8, 8, 8);
+}
+
+.footer-top{
+  background-color: rgb(8, 8, 8);
+  padding: 10px 0;
+  /* padding-right: 10px 0; */
+}
+
+
+.footp{
+  color:rgb(214, 214, 214); 
+  text-align: left
+}
+
+.footh2{
+  color: aliceblue;
+    font-size: 30px;
+}
+
+#feed{
+  display: inline;
+}
+/* #s{
+display: inline;
+} */
+.foottext{
+  width: fit-content
+}
+@media screen and (max-width: 990px){
+ #feed {
+   background-size: 1px;
+ }
+}
+@media screen and (max-width: 575px) {
+  .footh2 {
+    font-size: 23px
+  }
+  .footp {
+    font-size: 18px
+  }
+  .foottext{
+    width: 1rem
+
+  }
+ 
+}
+
+.form-control-sm{
+
+  width: 1px;
+  size: 0em
+}
+  #sm:hover{
+
+    /* font-size: 2.5em */
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  }
+  #s:hover{
+
+     font-size: 1.1em; 
+    height: 1.3rem; 
+    -ms-transform: scale(1.4); 
+  -webkit-transform: scale(1.4); 
+  transform: scale(1.4);
+  }
